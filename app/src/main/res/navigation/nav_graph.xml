@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.smarteduc.view.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/classFragment"
+        android:name="com.example.smarteduc.view.fragment.ClassFragment"
+        android:label="fragment_class"
+        tools:layout="@layout/fragment_class" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.smarteduc.view.fragment.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" />
+    <fragment
+        android:id="@+id/tableFragment"
+        android:name="com.example.smarteduc.view.fragment.TableFragment"
+        android:label="fragment_table"
+        tools:layout="@layout/fragment_table" />
+</navigation>
